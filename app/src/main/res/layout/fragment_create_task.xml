@@ -56,12 +56,12 @@
 
     <EditText
         android:id="@+id/addTaskTitle"
-        android:layout_width="match_parent"
+        android:layout_width="375dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="7dp"
         android:background="@drawable/btn_border"
         android:fontFamily="@font/product_sans_regular"
-        android:padding="10dp"
+        android:padding="11dp"
         android:singleLine="true"
         android:textSize="14sp"
         tools:ignore="MissingPrefix" />
@@ -77,12 +77,12 @@
 
     <EditText
         android:id="@+id/addTaskDescription"
-        android:layout_width="370dp"
+        android:layout_width="375dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="7dp"
         android:background="@drawable/btn_border"
         android:fontFamily="@font/product_sans_regular"
-        android:padding="10dp"
+        android:padding="11dp"
         android:singleLine="true"
         android:textSize="14sp"
         tools:ignore="MissingPrefix" />
@@ -98,12 +98,12 @@
 
     <EditText
         android:id="@+id/taskDate"
-        android:layout_width="369dp"
+        android:layout_width="375dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="7dp"
         android:background="@drawable/btn_border"
         android:fontFamily="@font/product_sans_regular"
-        android:padding="10dp"
+        android:padding="11dp"
         android:singleLine="true"
         android:textSize="14sp"
         tools:ignore="MissingPrefix" />
@@ -119,12 +119,12 @@
 
     <EditText
         android:id="@+id/taskTime"
-        android:layout_width="366dp"
+        android:layout_width="375dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="7dp"
         android:background="@drawable/btn_border"
         android:fontFamily="@font/product_sans_regular"
-        android:padding="10dp"
+        android:padding="11dp"
         android:singleLine="true"
         android:textSize="14sp"
         tools:ignore="MissingPrefix" />
@@ -139,15 +139,15 @@
         tools:ignore="MissingPrefix" />
 
     <EditText
-        android:textSize="14sp"
-        android:fontFamily="@font/product_sans_regular"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:singleLine="true"
-        android:background="@drawable/btn_border"
-        android:padding="10dp"
         android:id="@+id/taskEvent"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/btn_border"
+        android:fontFamily="@font/product_sans_regular"
+        android:padding="11dp"
+        android:singleLine="true"
+        android:textSize="14sp"
         tools:ignore="MissingPrefix" />
 
     <Button
