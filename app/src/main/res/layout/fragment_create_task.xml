@@ -32,7 +32,7 @@
             android:textSize="22sp"
             tools:ignore="MissingPrefix" />
 
-        <TextView
+    <TextView
            android:fontFamily="@font/product_sans_regular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -54,37 +54,37 @@
             android:text="Tiêu Đề"
             tools:ignore="MissingPrefix" />
 
-        <EditText
-            android:textSize="14sp"
-            android:fontFamily="@font/product_sans_regular"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:singleLine="true"
-            android:background="@drawable/btn_border"
-            android:padding="10dp"
-            android:id="@+id/addTaskTitle"
-            tools:ignore="MissingPrefix" />
+    <EditText
+        android:id="@+id/addTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_border"
+        android:fontFamily="@font/product_sans_regular"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textSize="14sp"
+        tools:ignore="MissingPrefix" />
 
     <TextView
-        android:layout_marginLeft="3dp"
-        android:fontFamily="@font/product_sans_regular"
-        android:layout_width="wrap_content"
+        android:layout_width="116dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
         android:layout_marginTop="30dp"
+        android:fontFamily="@font/product_sans_regular"
         android:text="Mô Tả Công Việc"
         tools:ignore="MissingPrefix" />
 
     <EditText
-        android:textSize="14sp"
-        android:fontFamily="@font/product_sans_regular"
-        android:layout_width="match_parent"
+        android:id="@+id/addTaskDescription"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:singleLine="true"
         android:background="@drawable/btn_border"
+        android:fontFamily="@font/product_sans_regular"
         android:padding="10dp"
-        android:id="@+id/addTaskDescription"
+        android:singleLine="true"
+        android:textSize="14sp"
         tools:ignore="MissingPrefix" />
 
     <TextView
@@ -97,15 +97,15 @@
         tools:ignore="MissingPrefix" />
 
     <EditText
-        android:textSize="14sp"
-        android:fontFamily="@font/product_sans_regular"
-        android:layout_width="match_parent"
+        android:id="@+id/taskDate"
+        android:layout_width="369dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:singleLine="true"
         android:background="@drawable/btn_border"
+        android:fontFamily="@font/product_sans_regular"
         android:padding="10dp"
-        android:id="@+id/taskDate"
+        android:singleLine="true"
+        android:textSize="14sp"
         tools:ignore="MissingPrefix" />
 
     <TextView
@@ -118,15 +118,15 @@
         tools:ignore="MissingPrefix" />
 
     <EditText
-        android:textSize="14sp"
-        android:fontFamily="@font/product_sans_regular"
-        android:layout_width="match_parent"
+        android:id="@+id/taskTime"
+        android:layout_width="366dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:singleLine="true"
         android:background="@drawable/btn_border"
+        android:fontFamily="@font/product_sans_regular"
         android:padding="10dp"
-        android:id="@+id/taskTime"
+        android:singleLine="true"
+        android:textSize="14sp"
         tools:ignore="MissingPrefix" />
 
     <TextView
