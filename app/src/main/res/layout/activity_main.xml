@@ -19,33 +19,24 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="Nhóm 7"
-       android:fontFamily="@font/product_sans_bold"
-       android:layout_marginTop="20dp"
-       android:textColor="@color/red"
-       android:textSize="18sp"/>
-
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="All tasks"
-       fontPath="fonts/nunito_extra_bold.ttf"
-       android:fontFamily="@font/product_sans_bold"
-       android:textColor="@color/red"
-       android:textSize="28sp"
-       tools:ignore="MissingPrefix" />
+            <TextView
+                fontPath="fonts/nunito_extra_bold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="Tất cả ghi chú"
+                android:textColor="@color/red"
+                android:textSize="28sp"
+                tools:ignore="MissingPrefix" />
 
         </LinearLayout>
 
         <ImageView
-            android:layout_width="30dp"
+            android:id="@+id/calendar"
+            android:layout_width="46dp"
             android:layout_height="30dp"
             android:layout_gravity="right|center"
-            android:background="@drawable/calendar"
-            android:id="@+id/calendar"/>
+            android:background="@drawable/calendar" />
 
     </FrameLayout>
 
